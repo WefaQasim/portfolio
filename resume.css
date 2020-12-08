@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+h1,h2{
+	font-family: 'Itim', cursive;
+}
+i.fa{
+	font-size: 6em;
+	color: white;
+}
+class="img-fluid"{
+	display:block;
+    max-width:100%;
+    height:auto;
+}
+h2{
+	text-align: left;
+	margin: 20px;
+	padding-right: 20px;
+	border-top: 2px #fd7e14 solid;
+}
+p{
+	text-align: right;
+	margin-right: 20px;
+}
+
+h3{
+	color: black;
+	background-color: #fd7e14;
+	font-size: 50px;
+	text-align: center;
+}
+h6{
+	text-align: right;
+	color: black; 
+	margin-left: 20px;
+	padding-right: 20px;
+}
+/* Navigation Bar */
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited {
+	color: purple;
+}
+nav a:hover{
+	color: orange;
+}
+nav a:active {
+	color: blue;
+}
+footer a:link{
+	color: white;
+}
+footer a:visited {
+	color: yellow;
+}
+footer a:hover{
+	color: black;
+}
+footer a:active {
+	color: brown;
+}
+footer{
+	text-align: center;
+}
+h1{
+	font-size: 3em;
+}
+/* CSS for Tablets*/
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+
+
+
+/* CSS for smartphone */
+@media only screen and (max-width: 768px;){
+	h1{
+		font-size: 1.5em;
+	}
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+header img{
+	margin: 0 auto;
+	display: block;	
+}
+nav ul{
+	margin: 0 auto;
+}
+nav li{
+	display: inline-block;
+	background-color: #fd9b2d;
+	padding: 8px 10px;
+	border-radius: 50px;
+}
+nav li:hover{
+	background-color: white;
+}
+nav{
+	background-color: #fd9b2d;
+}
+nav ul{
+	text-align: center;
+	padding: 8px;
+}
+body{
+	margin: 0 0;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.icons{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 30px;
+}
+.large{
+	font-size: 24px;
+}
+footer{
+	background-color: #ffc107;
+}
